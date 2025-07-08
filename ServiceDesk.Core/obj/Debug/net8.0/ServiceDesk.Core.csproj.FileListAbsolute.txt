@@ -1,0 +1,13 @@
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\bin\Debug\net8.0\Models\UserAuth.cs
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\bin\Debug\net8.0\ServiceDesk.Core.deps.json
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\bin\Debug\net8.0\ServiceDesk.Core.dll
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\bin\Debug\net8.0\ServiceDesk.Core.pdb
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\ServiceDesk.Core.csproj.AssemblyReference.cache
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\ServiceDesk.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\ServiceDesk.Core.AssemblyInfoInputs.cache
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\ServiceDesk.Core.AssemblyInfo.cs
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\ServiceDesk.Core.csproj.CoreCompileInputs.cache
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\ServiceDesk.Core.dll
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\refint\ServiceDesk.Core.dll
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\ServiceDesk.Core.pdb
+C:\Users\rocky\Documents\Visual Studio 2022\Projects\ServicesApp\ServiceDesk.Core\obj\Debug\net8.0\ref\ServiceDesk.Core.dll
