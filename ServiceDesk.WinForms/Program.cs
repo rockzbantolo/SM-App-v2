@@ -1,8 +1,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ServiceDesk.Infrastructure.Extensions;
-using ServiceDesk.WinForms.Controls;
 using ServiceDesk.WinForms.Extentions;
+
 
 namespace ServiceDesk.WinForms
 {
@@ -15,18 +15,12 @@ namespace ServiceDesk.WinForms
         static void Main()
         {
             var services = new ServiceCollection();
-
-            // Load configuration
-            IConfiguration config = LoadConfig();
+            var config = LoadConfig();
 
             // Register services
             services
-            .AddEnvironmentSettings(config)
-            .AddDatabase(config)
-            .AddSessionServices()
-            .AddRepositories()
-            .AddControls()
-            .AddTransient<MainForm>(); // Parent
+            .AddInfrastructure(config)
+            .AddControls();
 
             // Build the service provider
             using var provider = services.BuildServiceProvider();

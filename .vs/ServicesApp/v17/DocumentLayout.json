@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E49CBC7-8994-4678-8879-94003AE7AF7E}|ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj|c:\\users\\rocky\\documents\\github\\serviceapp\\servicedesk.winforms\\controls\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E49CBC7-8994-4678-8879-94003AE7AF7E}|ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj|solutionrelative:servicedesk.winforms\\controls\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7B9475-732C-439A-BD73-637152385A7C}|ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj|c:\\users\\rocky\\documents\\github\\serviceapp\\servicedesk.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7B9475-732C-439A-BD73-637152385A7C}|ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj|solutionrelative:servicedesk.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7735B02-15C7-4038-8B3A-413536DB7DC6}|ServiceDesk.Core\\ServiceDesk.Core.csproj|c:\\users\\rocky\\documents\\github\\serviceapp\\servicedesk.core\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7735B02-15C7-4038-8B3A-413536DB7DC6}|ServiceDesk.Core\\ServiceDesk.Core.csproj|solutionrelative:servicedesk.core\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7B9475-732C-439A-BD73-637152385A7C}|ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj|c:\\users\\rocky\\documents\\github\\serviceapp\\servicedesk.infrastructure\\extensions\\servicerepoext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7B9475-732C-439A-BD73-637152385A7C}|ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj|solutionrelative:servicedesk.infrastructure\\extensions\\servicerepoext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E49CBC7-8994-4678-8879-94003AE7AF7E}|ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj|c:\\users\\rocky\\documents\\github\\serviceapp\\servicedesk.winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E49CBC7-8994-4678-8879-94003AE7AF7E}|ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj|solutionrelative:servicedesk.winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\Program.cs",
+              "RelativeDocumentMoniker": "ServiceDesk.WinForms\\Program.cs",
+              "ToolTip": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\Program.cs",
+              "RelativeToolTip": "ServiceDesk.WinForms\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T14:54:47.305Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceRepoExt.cs",
+              "DocumentMoniker": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\Extensions\\ServiceRepoExt.cs",
+              "RelativeDocumentMoniker": "ServiceDesk.Infrastructure\\Extensions\\ServiceRepoExt.cs",
+              "ToolTip": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\Extensions\\ServiceRepoExt.cs",
+              "RelativeToolTip": "ServiceDesk.Infrastructure\\Extensions\\ServiceRepoExt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T15:37:47.146Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "ServiceDesk.Core\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "ServiceDesk.Core\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T08:01:14.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ServiceDesk.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "ServiceDesk.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T07:43:32.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginControl.cs",
+              "DocumentMoniker": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\Controls\\LoginControl.cs",
+              "RelativeDocumentMoniker": "ServiceDesk.WinForms\\Controls\\LoginControl.cs",
+              "ToolTip": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\Controls\\LoginControl.cs",
+              "RelativeToolTip": "ServiceDesk.WinForms\\Controls\\LoginControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:02:59.511Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

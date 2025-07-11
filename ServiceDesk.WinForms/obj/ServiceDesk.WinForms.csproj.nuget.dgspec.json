@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj": {}
+    "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj": {
+    "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj",
+        "projectUniqueName": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj",
         "projectName": "ServiceDesk.Core",
-        "projectPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj",
+        "projectPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj",
         "packagesPath": "C:\\Users\\rocky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Core\\obj\\",
+        "outputPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj": {
+    "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj",
         "projectName": "ServiceDesk.Infrastructure",
-        "projectPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\rocky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,8 +109,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj": {
-                "projectPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj"
+              "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj": {
+                "projectPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj"
               }
             }
           }
@@ -178,18 +178,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj": {
+    "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj",
+        "projectUniqueName": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj",
         "projectName": "ServiceDesk.WinForms",
-        "projectPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj",
+        "projectPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\ServiceDesk.WinForms.csproj",
         "packagesPath": "C:\\Users\\rocky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.WinForms\\obj\\",
+        "outputPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.WinForms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -211,11 +211,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj": {
-                "projectPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj"
+              "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj": {
+                "projectPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Core\\ServiceDesk.Core.csproj"
               },
-              "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rocky\\Documents\\Visual Studio 2022\\Projects\\ServicesApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj"
+              "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rocky\\Documents\\GitHub\\ServiceApp\\ServiceDesk.Infrastructure\\ServiceDesk.Infrastructure.csproj"
               }
             }
           }
@@ -288,7 +288,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,7 +1,5 @@
-﻿using ServiceDesk.Core.Models;
-using ServiceDesk.Core.Interfaces;
-using ServiceDesk.Core.Shared;
-using System.Data;
+﻿using ServiceDesk.Core.Shared;
+using ServiceDesk.Core.Services;
 
 namespace ServiceDesk.WinForms.Controls
 {
@@ -9,62 +7,40 @@ namespace ServiceDesk.WinForms.Controls
     {
         public event EventHandler? LoginSucceeded;
 
-        private readonly IUserRepository _userRepo;
-        private readonly UserSession _session;
+        private readonly IAuthService _auth;
 
-        public LoginControl(IUserRepository userRepo, UserSession session)
+        public LoginControl(IAuthService auth)
         {
             InitializeComponent();
-            _userRepo = userRepo;
-            _session = session;
+            _auth = auth;
         }
 
         private async void btnLogin_Click(object sender, EventArgs e)
         {
-            string username = "admin";
+            string username = "Admin";
             string password = "admin";
 
-            var user = await _userRepo.GetByCredentialsAsync(username, password);
-
-            if (user != null)
+            /*
+            if (string.IsNullOrWhiteSpace(txtUsername.Text) || string.IsNullOrWhiteSpace(txtPassword.Text))
             {
-                Logger.Info($"Login succeeded for User: {user.Username}");
+                MessageBox.Show("Please enter both username and password.", "Validation Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            */
 
-                _session.UserId = user.UserLoginId;
-                //_session.RoleId = user.RoleId;
-                //_session.RoleName = user.Role?.Name ?? "Unknown";
+            var session = await _auth.LoginAsync(username, password);
 
+            if (session != null)
+            {
+                // Raise login success event
                 LoginSucceeded?.Invoke(this, EventArgs.Empty);
+                Logger.Info($"Login succeeded for user: {session.Username} roleID: {session.UserLoginId}");
             }
             else
             {
-                MessageBox.Show("Invalid User");
+                MessageBox.Show("Invalid login.");
             }
-
         }
-
-        private async void LoadUsers()
-        {
-            var users = await Task.Run(() =>
-            {
-                var allUsers = _userRepo.GetAllUsers();
-
-                // Use IQueryable for DB-side filtering
-                var filtered = allUsers.Where(u => u.Username.StartsWith("a"));
-
-                // Use IEnumerable (client-side logic)
-                IEnumerable<UserAuth> materialized = filtered.ToList();
-
-                return materialized.Select(u => new
-                {
-                    u.UserLoginId,
-                    u.Username
-                }).ToList(); // Now it's IEnumerable (in-memory)
-            });
-
-            // Bind to a DataGridView
-            //dataGridView1.DataSource = users;
-        }
-
     }
 }

@@ -12,9 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Models\UserAuth.cs">
+    <Compile Update="Models\User.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extentions\" />
   </ItemGroup>
 
 </Project>

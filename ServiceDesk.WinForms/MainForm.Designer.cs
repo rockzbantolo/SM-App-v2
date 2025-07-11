@@ -33,9 +33,10 @@
             // 
             // pnBody
             // 
-            pnBody.Location = new Point(24, 12);
+            pnBody.Dock = DockStyle.Fill;
+            pnBody.Location = new Point(0, 0);
             pnBody.Name = "pnBody";
-            pnBody.Size = new Size(1043, 703);
+            pnBody.Size = new Size(1093, 744);
             pnBody.TabIndex = 0;
             // 
             // MainForm
@@ -46,6 +47,7 @@
             Controls.Add(pnBody);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
+            Text = "Service Desk";
             ResumeLayout(false);
         }
 

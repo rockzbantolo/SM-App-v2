@@ -1,30 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ServiceDesk.Core.Models;
 
 namespace ServiceDesk.Core.Shared
 {
     public class UserSession
     {
-        public int UserId { get; set; }
-        public string Username { get; set; } = string.Empty;
-        public int RoleId { get; set; }
-        public string RoleName { get; set; } = string.Empty;
+        public int UserLoginId { get; set; }
+        public string Username { get; set; }
+        public string? FullName => $"{FirstName} {LastName}";
+        public string? Email { get; set; }
 
-        // Optional: store allowed permissions/forms
-        public List<UserPermission> Permissions { get; set; } = new();
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
 
-        public bool IsLoggedIn => UserId > 0;
+        public List<UserRoleInfo> Roles { get; set; } = new();
+        public List<UserPermInfo> Permissions { get; set; } = new();
 
-        public void Clear()
+        public DateTime LoginTime { get; set; }
+        public bool IsSuperUser { get; set; }
+
+        // Helper methods
+        public bool HasPermission(string moduleName, string action)
         {
-            UserId = 0;
-            Username = string.Empty;
-            RoleId = 0;
-            RoleName = string.Empty;
-            Permissions.Clear();
+            if (IsSuperUser) return true;
+
+            return Permissions.Any(p =>
+                p.ModuleName.Equals(moduleName, StringComparison.OrdinalIgnoreCase) &&
+                p.Action.Equals(action, StringComparison.OrdinalIgnoreCase));
         }
+
+        public bool HasAnyPermissionInModule(string moduleName)
+        {
+            if (IsSuperUser) return true;
+
+            return Permissions.Any(p =>
+                p.ModuleName.Equals(moduleName, StringComparison.OrdinalIgnoreCase));
+        }
+
+        public List<string> GetAllowedModules()
+        {
+            if (IsSuperUser)
+                return new List<string> { "All" };
+
+            return Permissions.Select(p => p.ModuleName).Distinct().ToList();
+        }
+
     }
 }

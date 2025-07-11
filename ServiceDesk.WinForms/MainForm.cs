@@ -1,6 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
 using ServiceDesk.WinForms.Controls;
-using static ServiceDesk.WinForms.Helpers.Utilities;
 
 namespace ServiceDesk.WinForms
 {
@@ -17,22 +16,23 @@ namespace ServiceDesk.WinForms
 
         public void ShowLogin()
         {
-            var login = _services.GetRequiredService<LoginControl>();
+            ShowControl<LoginControl>(login =>
+            {
+                login.LoginSucceeded += OnLoginSucceeded;
+            });
+        }
 
-            login.LoginSucceeded += OnLoginSucceeded; // listen to login event
-            LoadControl(login, pnBody);
+        public void ShowMainPage()
+        {
+            ShowControl<LoginControl>(login =>
+            {
+                login.LoginSucceeded += OnLoginSucceeded;
+            });
         }
 
         private void OnLoginSucceeded(object? sender, EventArgs e)
         {
-            ShowMainLayout();
-        }
-
-        public void ShowMainLayout()
-        {
-            //var layout = _services.GetRequiredService<MainControl>();
-            //layout.LogoutRequested += OnLogoutRequested; // handle logout
-            //LoadControl(layout, pnBody);
+            ShowMainPage();
         }
 
         private void OnLogoutRequested(object? sender, EventArgs e)
@@ -40,5 +40,18 @@ namespace ServiceDesk.WinForms
             ShowLogin();
         }
 
+        public void LoadControl(Control control)
+        {
+            pnBody.Controls.Clear();
+            control.Dock = DockStyle.Fill;
+            pnBody.Controls.Add(control);
+        }
+
+        public void ShowControl<T>(Action<T>? configure = null) where T : Control
+        {
+            var control = _services.GetRequiredService<T>();
+            configure?.Invoke(control);
+            LoadControl(control);
+        }
     }
 }

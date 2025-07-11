@@ -4,6 +4,9 @@
     <Compile Update="Controls\LoginControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Controls\MainControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

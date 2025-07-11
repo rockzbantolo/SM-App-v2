@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ServiceDesk.WinForms</id>
+    <version>1.0.0</version>
+    <authors>ServiceDesk.WinForms</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="8bc8b10ed64f726de41d00316d9fe83c604e0b2c" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="ServiceDesk.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceDesk.Infrastructure" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper" version="15.0.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper.Extensions.Microsoft.DependencyInjection" version="12.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="9.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\rocky\Documents\GitHub\ServiceApp\ServiceDesk.WinForms\bin\Debug\net8.0-windows\ServiceDesk.WinForms.runtimeconfig.json" target="lib\net8.0-windows7.0\ServiceDesk.WinForms.runtimeconfig.json" />
+    <file src="C:\Users\rocky\Documents\GitHub\ServiceApp\ServiceDesk.WinForms\bin\Debug\net8.0-windows\ServiceDesk.WinForms.dll" target="lib\net8.0-windows7.0\ServiceDesk.WinForms.dll" />
+  </files>
+</package>
